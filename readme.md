@@ -8,6 +8,7 @@ git init -- initialize git tracking
 ```
 
 git status -- get current status of repo
+git branch
 ```
 
 * Stage 1 file or all files
@@ -32,3 +33,37 @@ git push origin master
 ```
 
 
+
+## Branches
+
+Display all branches
+```
+git branch
+```
+
+Create new branch
+```
+git checkout -b newbranch
+```
+
+merging
+```
+git merge dev
+```
+
+## Summary
+
+Common commands once set up
+```
+git add -A
+git commit -m "message"
+git push origin master
+git checkout -b newbranch
+git merge newbranch
+```
+
+More advanced
+```
+git log
+git reset -- hard <commit>
+```
